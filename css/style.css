@@ -134,8 +134,21 @@ div.studyeng{
 
 div.studyeng h1{
   color:white;
+  font-style: italic;
+}
+
+div.studyeng button{
   text-transform: uppercase;
-  text-align: center;
+  padding: 15px;
+  background:#7fb802;
+  color:white;
+  font-size: bold;
+  border-radius:10px;
+  border:0;
+  position:absolute;
+  top:80%;
+  left:15%;
+  transform: translate(-50%,-50%);
 }
 /* |study-eng */
 
@@ -152,20 +165,6 @@ div.sfondoheader img{
 }
 
 
-
-div.studyeng button{
-  text-transform: uppercase;
-  padding: 15px;
-  background:#7fb802;
-  color:white;
-  font-size: bold;
-  border-radius:10px;
-  border:0;
-  position:absolute;
-  top:80%;
-  left:15%;
-  transform: translate(-50%,-50%);
-}
 /* |sezione inferiore header */
 
 /* |header */
