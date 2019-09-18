@@ -145,7 +145,6 @@ div.studyeng{
 }
 
 div.studyeng h1{
-  display:inline-block;
   color:white;
   font-style: italic;
   position:absolute;
@@ -197,7 +196,7 @@ div.upper{
   position:relative;
 }
 
-footer h1{
+.upper h1{
   display:inline-block;
   color: white;
   position:absolute;
@@ -209,7 +208,7 @@ footer h1>span{
   color:orange;
 }
 
-footer h3{
+.upper h3{
   color:rgba(255,255,255,.5);
   position:absolute;
   top:45%;
@@ -239,11 +238,39 @@ div.contact{
 }
 
 div.terms{
-  background:orange;
+  /* background:orange; */
+  position: relative;
 }
+
+.terms ul{
+  position:absolute;
+  top:10%;
+  left:8%;
+
+
+}
+
+.terms ul li{
+  list-style-type: none;
+  color:white;
+  padding: 5px;
+}
+
+.terms ul li:first-child{
+  font-size: 12px;
+  font-weight:bold;
+}
+
+.terms ul li a{
+  text-decoration:none;
+  color:rgba(255,255,255,.5);
+
+}
+
 div.contact{
   background:green;
 }
+
 
 
 
