@@ -11,15 +11,22 @@ header{
   height: 500px;
 }
 
-.containerheader{
-  background: white;
+.containerheader1{
+  background: red;
   width:80vw;
   height:500px;
   margin-right:0;
   position:relative;
+
 }
 
-.containerheader::after{
+div.logo,
+div.navbar,
+div.login{
+  margin-bottom:100px;
+}
+
+.containerheader1::after{
   content:"";
   display:table;
   clear:both;
@@ -45,4 +52,25 @@ div.login{
   height:50px;
   width:30%;
   background:lightgrey;
+}
+
+
+.containerheader2::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+div.studyeng{
+ float:left;
+  height:350px;
+  width:30%;
+  background:pink;
+}
+
+div.sfondoheader{
+ float:left;
+  height:350px;
+  width:70%;
+  background:orange;
 }
