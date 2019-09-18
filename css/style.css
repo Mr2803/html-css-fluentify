@@ -209,6 +209,22 @@ div.school{
 }
 /* |prima sezione */
 
+/* seconda sezione */
+section.tre-col{
+  width: 100%;
+  height:500px;
+  background: pink;
+}
+
+.cont-tre-col::after{
+  content:"";
+  display: table;
+  clear:both;
+}
+
+
+
+/* |seconda sezione */
 /* footer */
 /* footer parte superiore */
 div.upper{
