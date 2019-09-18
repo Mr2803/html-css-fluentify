@@ -24,19 +24,20 @@ header{
   /* background: red; */
 }
 
-div.logo,
-div.navbar,
-div.login{
-  margin-bottom:100px;
-  float:left;
-  height:50px;
-  margin-top: 10px;
-}
-
 .containerheader1::after{
   content:"";
   display:table;
   clear:both;
+}
+
+/* regole generali */
+div.logo,
+div.navbar,
+div.login{
+  margin-bottom:88px;
+  float:left;
+  height:50px;
+  margin-top: 10px;
 }
 
 /* logo */
@@ -46,9 +47,9 @@ div.logo{
 }
 
 div.logo img{
-  width: 50%;
+  width: 30%;
   height: 100%;
-  margin-left:50%;
+  margin-left:70%;
 }
 /* |logo */
 
@@ -73,6 +74,10 @@ div.navbar ul li{
   font-size:12px;
 }
 
+div.navbar ul li a:hover{
+  color:orange;
+}
+
 div.navbar ul li a{
   text-decoration: none;
   color:white;
@@ -81,7 +86,7 @@ div.navbar ul li a{
 
 /* login */
 div.login{
-  float:left;
+  padding:6px;
   width:30%;
   /* background:lightgrey; */
 }
@@ -96,15 +101,16 @@ div.login span{
   display: inline-block;
   background:#0D325A;
   color:white;
-  padding:5px;
+  padding: 8px 25px;
   margin:0 10px;
   border-radius:10px;
   border:1px solid #4e8cb6;
+  text-transform: uppercase;
 }
 
 #plan{
   text-transform: uppercase;
-  padding: 5px;
+  padding: 8px 10px;
   background:#7fb802;
   color:white;
   font-size: bold;
@@ -145,7 +151,6 @@ div.studyeng h1{
   top:25%;
   left:50%;
   transform: translate(-50%,-50%);
-
 }
 
 div.studyeng button{
@@ -164,7 +169,7 @@ div.studyeng button{
 /* |study-eng */
 
 div.sfondoheader{
- float:left;
+  float:left;
   height:340px;
   width:55%;
   /* background:black; */
