@@ -5,7 +5,8 @@ body{
 }
 
 *{
-  font-family: Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size:semi-bold;
 }
 
 /* header */
@@ -125,7 +126,6 @@ div.login span{
 /* sezione inferiore header */
 .containerheader2{
   width: 100%;
-
 }
 
 .containerheader2::after{
@@ -151,6 +151,7 @@ div.studyeng h1{
   top:25%;
   left:50%;
   transform: translate(-50%,-50%);
+  font-size: 35px;
 }
 
 div.studyeng button{
