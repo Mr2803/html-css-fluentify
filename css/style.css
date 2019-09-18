@@ -4,13 +4,19 @@ body{
   box-sizing: border-box;
 }
 
+*{
+  font-family: Verdana, sans-serif;
+}
 
+/* header */
 header{
   background: #0D325A;
   width:100vw;
   height: 500px;
+
 }
 
+/* sezione superiore header */
 .containerheader1{
   background: red;
   width:80vw;
@@ -24,6 +30,8 @@ div.logo,
 div.navbar,
 div.login{
   margin-bottom:100px;
+  float:left;
+  height:50px;
 }
 
 .containerheader1::after{
@@ -34,27 +42,28 @@ div.login{
 }
 
 div.logo{
-  float:left;
-  height:50px;
   width:20%;
-  background: lightgreen;
+}
+
+div.logo img{
+  width: 50%;
+  height: 100%;
 }
 
 div.navbar{
   float:left;
-  height: 50px;
   width:40%;
   background:lightblue;
 }
 
 div.login{
   float:left;
-  height:50px;
   width:30%;
   background:lightgrey;
 }
+/* |sezione superiore header */
 
-
+/* sezione inferiore header */
 .containerheader2::after{
   content:"";
   display:table;
@@ -62,7 +71,7 @@ div.login{
 }
 
 div.studyeng{
- float:left;
+  float:left;
   height:350px;
   width:30%;
   background:pink;
@@ -72,5 +81,17 @@ div.sfondoheader{
  float:left;
   height:350px;
   width:70%;
-  background:orange;
+
 }
+
+div.sfondoheader img{
+  width:100%;
+  height: 100%;
+}
+
+div.studyeng h1{
+  color:white;
+}
+/* |sezione inferiore header */
+
+/* |header */
