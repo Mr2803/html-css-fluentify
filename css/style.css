@@ -13,6 +13,7 @@ header{
   background: #0D325A;
   width:100vw;
   height: 500px;
+  margin-right: 0;
 
 }
 
@@ -31,13 +32,13 @@ div.login{
   margin-bottom:100px;
   float:left;
   height:50px;
+  margin-top: 10px;
 }
 
 .containerheader1::after{
   content:"";
   display:table;
   clear:both;
-
 }
 
 /* logo */
@@ -46,7 +47,7 @@ div.logo{
 }
 
 div.logo img{
-  width: 60%;
+  width: 50%;
   height: 100%;
 }
 /* |logo */
@@ -55,7 +56,7 @@ div.logo img{
 div.navbar{
   float:left;
   width:50%;
-  background:lightblue;
+  /* background:lightblue; */
 }
 
 div.navbar ul{
@@ -78,11 +79,41 @@ div.navbar ul li a{
 }
 /* |navbar */
 
+/* login */
 div.login{
   float:left;
   width:30%;
-  background:lightgrey;
+  /* background:lightgrey; */
 }
+
+div.login span{
+  font-size: 11px;
+  text-transform: uppercase;
+  color:rgba(255,255,255,.5);
+}
+
+#log{
+  display: inline-block;
+  background:#0D325A;
+  color:white;
+  padding:5px;
+  margin:0 10px;
+  border-radius:10px;
+  border:1px solid #4e8cb6;
+}
+
+#plan{
+  text-transform: uppercase;
+  padding: 5px;
+  background:#7fb802;
+  color:white;
+  font-size: bold;
+  border-radius:10px;
+  border:0;
+
+}
+/* |login */
+
 /* |sezione superiore header */
 
 /* sezione inferiore header */
@@ -95,7 +126,7 @@ div.login{
 /* study-eng */
 div.studyeng{
   float:left;
-  height:350px;
+  height:340px;
   width:30%;
 }
 
@@ -108,7 +139,7 @@ div.studyeng h1{
 
 div.sfondoheader{
  float:left;
-  height:350px;
+  height:340px;
   width:70%;
 
 }
