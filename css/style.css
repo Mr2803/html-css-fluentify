@@ -237,6 +237,7 @@ section.tre-col{
   width:30%;
 }
 
+/* colonna1 */
 .tre-col-uno{
 background-color: red;
 position: relative;
@@ -252,6 +253,16 @@ position: relative;
   transform: translate(-50%,-50%)
 }
 
+.text-col-1 h3{
+  color: #7fb802;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%)
+}
+/* |colonna1 */
+
+/* colonna2 */
 .tre-col-due{
 background-color: green;
 margin-left:5%;
@@ -269,6 +280,15 @@ position:relative;
   transform: translate(-50%,-50%)
 }
 
+.text-col-2 h3{
+  color: #7fb802;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%)
+}
+/* |colonna2 */
+
 .tre-col-tre{
   background-color: blue;
   position: relative;
@@ -283,6 +303,15 @@ position:relative;
   left:50%;
   transform: translate(-50%,-50%)
 }
+
+.text-col-3 h3{
+  color: #7fb802;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%)
+}
+
 
 /* |seconda sezione */
 
