@@ -35,7 +35,7 @@ header{
 div.logo,
 div.navbar,
 div.login{
-  margin-bottom:88px;
+  margin-bottom:83px;
   float:left;
   height:50px;
   margin-top: 10px;
@@ -58,6 +58,7 @@ div.logo img{
 div.navbar{
   float:left;
   width:35%;
+  margin-top: 15px;
   /* background:lightblue; */
 }
 
@@ -89,6 +90,7 @@ div.navbar ul li a{
 div.login{
   padding:6px;
   width:30%;
+  margin-top:15px;
   /* background:lightgrey; */
 }
 
@@ -117,7 +119,6 @@ div.login span{
   font-size: bold;
   border-radius:10px;
   border:0;
-
 }
 /* |login */
 
