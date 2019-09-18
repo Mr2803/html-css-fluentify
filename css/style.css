@@ -93,6 +93,16 @@ div.studyeng h1{
   color:white;
   text-transform: uppercase;
 }
+
+div.studyeng button{
+  text-transform: uppercase;
+  padding: 15px;
+  background:#7fb802;
+  color:white;
+  font-size: bold;
+  border-radius:10px;
+  border:0;
+}
 /* |sezione inferiore header */
 
 /* |header */
