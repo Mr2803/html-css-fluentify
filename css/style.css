@@ -1,0 +1,48 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+header{
+  background: #0D325A;
+  width:100vw;
+  height: 500px;
+}
+
+.containerheader{
+  background: white;
+  width:80vw;
+  height:500px;
+  margin-right:0;
+  position:relative;
+}
+
+.containerheader::after{
+  content:"";
+  display:table;
+  clear:both;
+
+}
+
+div.logo{
+  float:left;
+  height:50px;
+  width:20%;
+  background: lightgreen;
+}
+
+div.navbar{
+  float:left;
+  height: 50px;
+  width:40%;
+  background:lightblue;
+}
+
+div.login{
+  float:left;
+  height:50px;
+  width:30%;
+  background:lightgrey;
+}
