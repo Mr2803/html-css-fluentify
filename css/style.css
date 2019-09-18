@@ -24,8 +24,8 @@ header{
   position:relative;
   /* margin-top: 0;
   margin-right:0;
-
-  background: red; */
+*/
+  background: red;
 }
 
 div.logo,
@@ -119,6 +119,10 @@ div.login span{
 /* |sezione superiore header */
 
 /* sezione inferiore header */
+.containerheader2{
+  width: 100vw;
+}
+
 .containerheader2::after{
   content:"";
   display:table;
@@ -156,7 +160,6 @@ div.sfondoheader{
  float:left;
   height:340px;
   width:70%;
-
 }
 
 div.sfondoheader img{
