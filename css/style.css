@@ -192,6 +192,7 @@ footer div:first-child{
   width: 100%;
   height: 120px;
   background-color: #0F335A;
+  position:relative;
 }
 
 footer div:last-child{
@@ -203,4 +204,20 @@ footer div:last-child{
 footer h1{
   display:inline-block;
   color: white;
+  position:absolute;
+  top:1%;
+  left:10%;
+
+}
+
+footer h1>span{
+  color:orange;
+}
+
+footer h3{
+  color:rgba(255,255,255,.5);
+  position:absolute;
+  top:45%;
+  left:10%;
+  font-size: 18px;
 }
