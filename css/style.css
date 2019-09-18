@@ -21,9 +21,10 @@ header{
 .containerheader1{
   width:80vw;
   height:500px;
+  position:relative;
   /* margin-top: 0;
   margin-right:0;
-  position:absolute;
+
   background: red; */
 }
 
