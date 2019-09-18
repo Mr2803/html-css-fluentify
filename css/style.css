@@ -11,21 +11,17 @@ body{
 /* header */
 header{
   background: #0D325A;
-  width:100vw;
+  width:100%;
   height: 500px;
   margin-right: 0;
-
 }
 
 /* sezione superiore header */
 .containerheader1{
-  width:80vw;
+  width:100%;
   height:500px;
   position:relative;
-  /* margin-top: 0;
-  margin-right:0;
-*/
-  background: red;
+  /* background: red; */
 }
 
 div.logo,
@@ -46,18 +42,20 @@ div.login{
 /* logo */
 div.logo{
   width:20%;
+ /* background:green; */
 }
 
 div.logo img{
   width: 50%;
   height: 100%;
+  margin-left:50%;
 }
 /* |logo */
 
 /* navbar */
 div.navbar{
   float:left;
-  width:50%;
+  width:35%;
   /* background:lightblue; */
 }
 
@@ -120,7 +118,8 @@ div.login span{
 
 /* sezione inferiore header */
 .containerheader2{
-  width: 100vw;
+  width: 100%;
+
 }
 
 .containerheader2::after{
@@ -133,12 +132,20 @@ div.login span{
 div.studyeng{
   float:left;
   height:340px;
-  width:30%;
+  width:45%;
+  position:relative;
+  /* background:orange; */
 }
 
 div.studyeng h1{
+  display:inline-block;
   color:white;
   font-style: italic;
+  position:absolute;
+  top:25%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
 }
 
 div.studyeng button{
@@ -150,8 +157,8 @@ div.studyeng button{
   border-radius:10px;
   border:0;
   position:absolute;
-  top:80%;
-  left:15%;
+  top:60%;
+  left:35%;
   transform: translate(-50%,-50%);
 }
 /* |study-eng */
@@ -159,7 +166,8 @@ div.studyeng button{
 div.sfondoheader{
  float:left;
   height:340px;
-  width:70%;
+  width:55%;
+  /* background:black; */
 }
 
 div.sfondoheader img{
