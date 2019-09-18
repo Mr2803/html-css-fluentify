@@ -180,11 +180,34 @@ div.sfondoheader img{
   width:100%;
   height: 100%;
 }
-
-
 /* |sezione inferiore header */
 
 /* |header */
+
+/* prima sezione */
+section.grey{
+  background:#f9f9f9;
+  width: 100%;
+  height:140px;
+}
+
+div.school{
+  display: inline-block;
+  width: 100%;
+  height:120px;
+  position:relative;
+}
+
+.school h2{
+  text-align: center;
+  color:#373a3c;
+}
+
+.school h4{
+  text-align: center;
+  color:#999999;
+}
+/* |prima sezione */
 
 /* footer */
 /* footer parte superiore */
@@ -237,15 +260,18 @@ div.contact{
   height:350px;
 }
 
+footer ul{
+  position:absolute;
+  top:10%;
+}
+
+/* primo contenitore footer parte inferiore */
 div.terms{
-  /* background:orange; */
   position: relative;
 }
 
-ul{
-  position:absolute;
-  top:10%;
-  left:8%;
+.terms ul{
+  left:30%;
 }
 
 .terms ul li{
@@ -262,24 +288,36 @@ ul{
 .terms ul li a{
   text-decoration:none;
   color:rgba(255,255,255,.5);
-
 }
+/* |primo contenitore footer parte inferiore */
+
+/* secondo contenitore footer parte inferiore */
 
 div.contact{
-  background:green;
   position:relative;
+}
+
+div.contact ul{
+  padding:10px;
+  width: 50%;
+  left:5%;
 }
 
 .contact ul li{
   list-style-type: none;
+  padding:10px;
 }
 
 .contact ul li:nth-child(1),
 .contact ul li:nth-child(2){
   color:white;
-  font-style: italic;
-
+  font-size: 17px;
 }
+
+.contact ul li:nth-child(3){
+  color:rgba(255,255,255,.5);
+}
+/* |secondo contenitore footer parte inferiore */
 
 /*footer parte inferiore  */
 /* |footer */
