@@ -242,12 +242,10 @@ div.terms{
   position: relative;
 }
 
-.terms ul{
+ul{
   position:absolute;
   top:10%;
   left:8%;
-
-
 }
 
 .terms ul li{
@@ -269,10 +267,19 @@ div.terms{
 
 div.contact{
   background:green;
+  position:relative;
 }
 
+.contact ul li{
+  list-style-type: none;
+}
 
+.contact ul li:nth-child(1),
+.contact ul li:nth-child(2){
+  color:white;
+  font-style: italic;
 
+}
 
 /*footer parte inferiore  */
 /* |footer */
