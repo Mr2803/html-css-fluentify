@@ -46,7 +46,7 @@ div.logo{
 }
 
 div.logo img{
-  width: 50%;
+  width: 60%;
   height: 100%;
 }
 /* |logo */
@@ -54,11 +54,30 @@ div.logo img{
 /* navbar */
 div.navbar{
   float:left;
-  width:40%;
+  width:50%;
   background:lightblue;
 }
 
+div.navbar ul{
+  list-style-type: none;
+}
+
+div.navbar ul li{
+  display:block;
+  float:left;
+  margin-right:40px;
+  text-transform:uppercase;
+  color:white;
+  font-size: bolder;
+  font-size:12px;
+}
+
+div.navbar ul li a{
+  text-decoration: none;
+  color:white;
+}
 /* |navbar */
+
 div.login{
   float:left;
   width:30%;
