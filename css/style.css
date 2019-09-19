@@ -130,7 +130,6 @@ div.studyeng{
   height:340px;
   width:50%;
   position:relative;
-  /* background:orange; */
 }
 
 div.studyeng h1{
@@ -203,13 +202,11 @@ div.school{
 section.tre-col{
   width: 100%;
   height:500px;
-  /* background: pink; */
 }
 
 .cont-tre-col{
   width: 100%;
   height: 100%;
-  /* background:orange; */
 }
 
 .cont-tre-col::after{
@@ -275,7 +272,6 @@ p.par-col1{
   color:#999999;
   font-size: 13px;
 }
-
 /* |colonna1 */
 
 /* colonna2 */
@@ -360,7 +356,6 @@ p.par-col3{
   font-size: 13px;
 }
 
-
 /* |seconda sezione */
 hr.divisore{
   margin-top: 10px;
@@ -374,7 +369,6 @@ hr.divisore{
 section.struttura-piano{
   width: 100%;
   height:700px;
-
 }
 
 div.cont-strut-piano{
@@ -399,20 +393,14 @@ div.scopri-livello{
   width: 50%;
   height: 75%;
 }
-
 /* primo blocco terza sezione */
-div.scalata{
-  /* background: lightblue; */
-
-}
-
 div.scalata img{
   width: 100%;
   height: 80%;
   margin-top: 5%;
   margin-left: 15%;
 }
-/* primo blocco terza sezione */
+/* |primo blocco terza sezione */
 
 /* secondo blocco terza sezione */
 .scopri-livello h1{
@@ -434,7 +422,7 @@ div.scopri-livello a{
   color:#98c8f8;
   margin-left: 10%;
 }
-/* secondo blocco terza sezione */
+/* |secondo blocco terza sezione */
 div.selezione{
   width: 100%;
   height: 25%;
