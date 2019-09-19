@@ -94,28 +94,28 @@ div.login span{
   color:rgba(255,255,255,.5);
 }
 
-#log{
-  display: inline-block;
-  background:#0D325A;
+#log,
+#plan{
+  text-transform: uppercase;
+  text-decoration: none;
   color:white;
+  font-size: 11px;
+}
+
+#log{
+  background:#0D325A;
   padding: 8px 25px;
   margin:0 10px;
   border-radius:5px;
   border:1px solid #4e8cb6;
-  text-transform: uppercase;
   font-size: 11px;
-  text-decoration: none;
 }
 
 #plan{
-  text-transform: uppercase;
   padding: 8px 10px;
   background:#7fb802;
-  color:white;
-  font-size: bold;
   border-radius:5px;
   border:0;
-  font-size: 11px;
   text-decoration: none;
 }
 /* |login */
@@ -186,7 +186,6 @@ div.school{
   width: 100%;
   height:120px;
   position:relative;
-
 }
 
 .school h2{
@@ -499,8 +498,6 @@ div.lezioni2{
   float:left;
 }
 
-
-
 .lezioni1 span{
   color:orange;
 }
@@ -736,6 +733,17 @@ div.struct-title{
   float: left;
   width: 20%;
   height: 100%;
+}
+
+select{
+  width: 300px;
+  height: 40px;
+}
+
+select option{
+  font-size: 20px;
+  text-transform: uppercase;
+  color:#b2b2b2;
 }
 
 .studente{
