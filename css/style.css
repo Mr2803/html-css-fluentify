@@ -637,15 +637,77 @@ margin-left: 40%;
   display: block;
   width: 35%;
 }
-
 .pc a{
 font-style: 16px;
 color: #98c8f8;
 margin-left: 46%
 }
-
-
 /* |sesta sezione */
+
+section.speakeng{
+  width: 100%;
+  height: 500px;
+}
+
+div.cont-speakeng{
+  width: 100%;
+  height: 100%;
+  background-color: #0D325A;
+}
+
+div.cont-speakeng::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.speak1,
+.speak2{
+  width: 40%;
+  height: 100%;
+  float:left;
+  margin-left: 5%;
+}
+
+.speak1 h3{
+  display: block;
+  font-size: 25px;
+  color:white;
+  width: 40%;
+  margin-left: 20%;
+}
+
+.speak1 p{
+  font-size: 15px;
+  color: white;
+  opacity: .6;
+  display: block;
+  width: 40%;
+  margin-left: 20%;
+}
+
+.speak1 a{
+  display: inline-block;
+  margin-top:3%;
+  text-transform: uppercase;
+  padding: 13px 10px ;
+  background:#7fb802;
+  color:white;
+  border-radius:5px;
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 20%;
+}
+
+.speak2 img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
 
 
 
