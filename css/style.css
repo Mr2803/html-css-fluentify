@@ -644,6 +644,7 @@ margin-left: 46%
 }
 /* |sesta sezione */
 
+/* settima sezione */
 section.speakeng{
   width: 100%;
   height: 500px;
@@ -703,7 +704,42 @@ div.cont-speakeng::after{
   width: 100%;
   height: 100%;
 }
+/* |settima sezione */
 
+/* ottava sezione */
+section.structure-plan{
+  width: 100%;
+  height: 500px;
+}
+
+div.cont-struct-plan{
+  width: 100%;
+  height:100%;
+}
+
+div.cont-struct-plan::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.studente,
+.professionista,
+.azienda{
+  float: left;
+  width: 30%;
+  height: 100%;
+  /* margin-left: 10%; */
+}
+
+div.cont-struct-plan img{
+  width: 10%;
+  height: 10%;
+
+}
+
+
+/* |ottava sezione */
 
 
 
