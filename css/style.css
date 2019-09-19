@@ -348,6 +348,54 @@ hr.divisore{
   width: 98%;
 }
 
+/* terza sezione */
+
+section.struttura-piano{
+  width: 100%;
+  height:700px;
+  background: pink;
+}
+
+div.cont-strut-piano{
+  width: 100%;
+  height: 100%;
+  background: orange;
+}
+
+div.cont-strut-piano::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.scalata,
+div.scopri-livello,
+div.uomo-donna{
+  float:left;
+}
+
+div.scalata,
+div.scopri-livello{
+  width: 50%;
+  height: 70%;
+}
+
+div.scalata{
+  background: lightblue;
+}
+
+div.scopri-livello{
+  background:green;
+}
+
+div.uomo-donna{
+  width: 100%;
+  height: 30%;
+  background:red;
+}
+
+/* |terza sezione */
+
 /* footer */
 /* footer parte superiore */
 div.upper{
