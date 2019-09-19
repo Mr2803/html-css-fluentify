@@ -271,7 +271,7 @@ hr.col1{
   transform: translate(-50%,-50%)
 }
 
-p.text-col1{
+p.par-col1{
   width: 60%;
   position: absolute;
   top:70%;
@@ -315,7 +315,7 @@ hr.col2{
   transform: translate(-50%,-50%)
 }
 
-p.text-col2{
+p.par-col2{
   width: 60%;
   position: absolute;
   top:70%;
@@ -358,7 +358,7 @@ hr.col3{
   transform: translate(-50%,-50%)
 }
 
-p.text-col3{
+p.par-col3{
   width: 60%;
   position: absolute;
   top:70%;
@@ -381,16 +381,16 @@ hr.divisore{
 
 /* terza sezione */
 
+
 section.struttura-piano{
   width: 100%;
   height:700px;
-  background: pink;
+  
 }
 
 div.cont-strut-piano{
   width: 100%;
   height: 100%;
-  background: orange;
 }
 
 div.cont-strut-piano::after{
@@ -411,25 +411,46 @@ div.scopri-livello{
   height: 70%;
 }
 
+/* primo blocco terza sezione */
 div.scalata{
-  background: lightblue;
-  position:relative;
+  /* background: lightblue; */
+
 }
 
 div.scalata img{
   width: 100%;
   height: 80%;
-
-  position: absolute;
-  top:55%;
-  left:70%;
-  transform: translate(-50%,-50%)
+  margin-top: 5%;
+  margin-left: 15%;
 }
+/* primo blocco terza sezione */
+
+/* secondo blocco terza sezione */
 
 div.scopri-livello{
-  background:green;
+  /* background:green; */
 }
 
+.scopri-livello h1{
+  color:#4a4a4a;
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 18%;
+  font-size: 28px;
+}
+
+div.scopri-livello p{
+  width: 40%;
+  color:#999999;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+div.scopri-livello a{
+  color:#98c8f8;
+  margin-left: 10%;
+}
+/* secondo blocco terza sezione */
 div.uomo-donna{
   width: 100%;
   height: 30%;
