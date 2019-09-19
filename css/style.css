@@ -20,9 +20,7 @@ header{
 /* sezione superiore header */
 .containerheader1{
   width:100%;
-  height:500px;
   position:relative;
-  /* background: red; */
 }
 
 .containerheader1::after{
@@ -44,7 +42,7 @@ div.login{
 /* logo */
 div.logo{
   width:20%;
- /* background:green; */
+
 }
 
 div.logo img{
@@ -59,7 +57,6 @@ div.navbar{
   float:left;
   width:35%;
   margin-top: 15px;
-  /* background:lightblue; */
 }
 
 div.navbar ul{
@@ -91,7 +88,6 @@ div.login{
   padding:6px;
   width:30%;
   margin-top:15px;
-  /* background:lightgrey; */
 }
 
 div.login span{
@@ -106,9 +102,11 @@ div.login span{
   color:white;
   padding: 8px 25px;
   margin:0 10px;
-  border-radius:10px;
+  border-radius:5px;
   border:1px solid #4e8cb6;
   text-transform: uppercase;
+  font-size: 11px;
+  text-decoration: none;
 }
 
 #plan{
@@ -117,8 +115,10 @@ div.login span{
   background:#7fb802;
   color:white;
   font-size: bold;
-  border-radius:10px;
+  border-radius:5px;
   border:0;
+  font-size: 11px;
+  text-decoration: none;
 }
 /* |login */
 
@@ -145,9 +145,11 @@ div.studyeng h1{
   font-size: 35px;
 }
 
-div.studyeng button{
+div.studyeng a{
+  font-size: 12px;
+  text-decoration: none;
   text-transform: uppercase;
-  padding: 15px;
+  padding: 13px;
   background:#7fb802;
   color:white;
   font-size: bold;
@@ -227,8 +229,6 @@ section.tre-col{
   width:30%;
 }
 
-
-
 p.text-col{
   width: 60%;
   position: absolute;
@@ -280,7 +280,6 @@ p.par-col1{
   font-size: 13px;
 }
 
-
 /* |colonna1 */
 
 /* colonna2 */
@@ -319,16 +318,14 @@ p.par-col2{
   width: 60%;
   position: absolute;
   top:70%;
-  left:25%;
+  left:23%;
   color:#999999;
   font-size: 13px;
 }
 /* |colonna2 */
 
 .tre-col-tre{
-  /* background-color: blue; */
   position: relative;
-
 }
 
 .tre-col-tre img{
@@ -362,14 +359,13 @@ p.par-col3{
   width: 60%;
   position: absolute;
   top:70%;
-  left:18%;
+  left:15%;
   color:#999999;
   font-size: 13px;
 }
 
 
 /* |seconda sezione */
-
 hr.divisore{
   margin-top: 10px;
   margin-bottom: 10px;
@@ -378,14 +374,11 @@ hr.divisore{
   display:block;
   width: 98%;
 }
-
 /* terza sezione */
-
-
 section.struttura-piano{
   width: 100%;
   height:700px;
-  
+
 }
 
 div.cont-strut-piano{
@@ -408,7 +401,7 @@ div.uomo-donna{
 div.scalata,
 div.scopri-livello{
   width: 50%;
-  height: 70%;
+  height: 75%;
 }
 
 /* primo blocco terza sezione */
@@ -453,9 +446,15 @@ div.scopri-livello a{
 /* secondo blocco terza sezione */
 div.uomo-donna{
   width: 100%;
-  height: 30%;
+  height: 25%;
   background:red;
 }
+
+.uomo-donna h3{
+  color:#4a4a4a;
+
+}
+
 
 
 
