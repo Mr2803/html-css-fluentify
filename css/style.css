@@ -125,15 +125,6 @@ div.login span{
 /* |sezione superiore header */
 
 /* sezione inferiore header */
-.containerheader2{
-  width: 100%;
-}
-
-.containerheader2::after{
-  content:"";
-  display:table;
-  clear:both;
-}
 
 /* study-eng */
 div.studyeng{
@@ -173,7 +164,6 @@ div.sfondoheader{
   float:left;
   height:340px;
   width:55%;
-  /* background:black; */
 }
 
 div.sfondoheader img{
