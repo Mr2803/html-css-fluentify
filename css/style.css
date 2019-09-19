@@ -42,7 +42,6 @@ div.login{
 /* logo */
 div.logo{
   width:20%;
-
 }
 
 div.logo img{
@@ -240,7 +239,6 @@ p.text-col{
 
 /* colonna1 */
 .tre-col-uno{
-/* background-color: red; */
 position: relative;
 margin-left: 5%;
 }
@@ -394,7 +392,7 @@ div.cont-strut-piano::after{
 
 div.scalata,
 div.scopri-livello,
-div.uomo-donna{
+div.selezione{
   float:left;
 }
 
@@ -419,11 +417,6 @@ div.scalata img{
 /* primo blocco terza sezione */
 
 /* secondo blocco terza sezione */
-
-div.scopri-livello{
-  /* background:green; */
-}
-
 .scopri-livello h1{
   color:#4a4a4a;
   width: 40%;
@@ -444,21 +437,107 @@ div.scopri-livello a{
   margin-left: 10%;
 }
 /* secondo blocco terza sezione */
-div.uomo-donna{
+div.selezione{
   width: 100%;
   height: 25%;
-  background:red;
+  background:#f9f9f9;
 }
 
-.uomo-donna h3{
+.selezione h3:first-child{
+  display: inline-block;
   color:#4a4a4a;
-
+  margin-top:3%;
+  margin-left: 12%;
+  font-size:30px;
 }
 
+.selezione h3:nth-child(2){
+  display: inline-block;
+  color:#b2b2b2;
+  margin-top:3%;
+  margin-left: 20%;
+  font-size:30px;
+}
 
-
-
+.selezione a{
+  display: inline-block;
+  margin-top:3%;
+  margin-left: 20%;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background:#7fb802;
+  color:white;
+  font-size: bold;
+  border-radius:5px;
+  border:0;
+  font-size: 17px;
+  text-decoration: none;
+}
 /* |terza sezione */
+
+/* quarta sezione */
+section.one-to-one{
+  with:100%;
+  height: 400px;
+  background:#0D325A;
+}
+
+div.cont-lezioni{
+  width: 100%;
+  height: 100%;
+}
+
+div.cont-lezioni::after{
+  content: "";
+  display:table;
+  clear: both;
+}
+
+div.lezioni1,
+div.lezioni2{
+  width: 50%;
+  height: 100%;
+  float:left;
+}
+
+.lezioni1{
+  background-color:#0D325A;
+}
+
+.lezioni1 span{
+  color:orange;
+}
+
+.lezioni1 h3{
+  margin-left: 25%;
+  margin-top:10%;
+  font-size: 30px;
+  color:white;
+}
+
+.lezioni1 p{
+  margin-left: 25%;
+  margin-top:5%;
+  display: block;
+  width: 50%;
+  color:white;
+  opacity:.5;
+  font-size: 14px;
+}
+
+.lezioni1 a{
+  display: block;
+  color:#98c8f8;
+  font-size:16px;
+  margin-left: 25%;
+  margin-top:5%;
+}
+
+.lezioni2 img{
+  width: 60%;
+  height: 100%;
+  margin-left:0;
+}
 
 /* footer */
 /* footer parte superiore */
