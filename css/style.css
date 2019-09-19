@@ -675,6 +675,7 @@ div.cont-speakeng::after{
   color:white;
   width: 40%;
   margin-left: 20%;
+  margin-top: 20%;
 }
 
 .speak1 p{
@@ -684,6 +685,7 @@ div.cont-speakeng::after{
   display: block;
   width: 40%;
   margin-left: 20%;
+  /* margin-top: 10%; */
 }
 
 .speak1 a{
@@ -776,18 +778,7 @@ div.cont-struct-plan hr{
 div.cont-struct-plan a{
 margin-left: 15%;
 }
-
 /* |ottava sezione */
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 /* footer parte superiore */
