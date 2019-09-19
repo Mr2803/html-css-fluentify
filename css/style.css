@@ -500,9 +500,7 @@ div.lezioni2{
   float:left;
 }
 
-.lezioni1{
-  background-color:#0D325A;
-}
+
 
 .lezioni1 span{
   color:orange;
@@ -538,6 +536,81 @@ div.lezioni2{
   height: 100%;
   margin-left:0;
 }
+/* |quarta sezione */
+
+/* quinta sezione */
+section.real-life{
+  width: 100%;
+  height: 500px;
+}
+
+div.cont-real{
+  width: 100%;
+  height: 100%;
+}
+
+div.cont-real::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
+div.real1,
+div.real2{
+  width: 50%;
+  height: 100%;
+  float:left;
+}
+
+div.real1 img{
+  width: 50%;
+  height: 50%;
+  margin-left:40%;
+  margin-top:15%;
+}
+
+div.real2 h3{
+  font-size: 30px;
+  margin-top:20%;
+  color:#4a4a4a;
+}
+
+div.real2 p{
+  font-size: 14px;
+  margin-top:15%;
+  color:#999999;
+  display:block;
+  margin-top:5%;
+  width: 30%;
+}
+
+div.real2 a{
+  display: inline-block;
+  margin-top:3%;
+  text-transform: uppercase;
+  padding: 13px 10px 8px;
+  background:#7fb802;
+  color:white;
+  border-radius:5px;
+  border:0;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+div.real2 span{
+  color:#A7d0f9;
+  font-size: 13px;
+  display: inline-block;
+  margin-left: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+
+
+
+
+
 
 /* footer */
 /* footer parte superiore */
