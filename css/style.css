@@ -782,7 +782,6 @@ div.upper{
 }
 
 .upper h1{
-  display:inline-block;
   color: white;
   position:absolute;
   top:1%;
