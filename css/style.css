@@ -808,7 +808,7 @@ footer div.globale-contatti{
   background-color: #17406B;
 }
 
-.globale-contatti{
+.globale-contatti::after{
   content:"";
   display:table;
   clear:both;
