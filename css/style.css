@@ -67,7 +67,6 @@ div.navbar ul li{
   margin-right:40px;
   text-transform:uppercase;
   color:white;
-  font-size: bolder;
   font-size:12px;
 }
 
@@ -149,7 +148,6 @@ div.studyeng a{
   padding: 13px;
   background:#7fb802;
   color:white;
-  font-size: bold;
   border-radius:10px;
   border:0;
   position:absolute;
@@ -448,12 +446,10 @@ div.selezione{
 .selezione a{
   display: inline-block;
   margin-top:3%;
-  margin-left: 20%;
   text-transform: uppercase;
   padding: 10px 20px;
   background:#7fb802;
   color:white;
-  font-size: bold;
   border-radius:5px;
   border:0;
   font-size: 17px;
@@ -848,7 +844,6 @@ div.terms{
 
 .terms ul li:first-child{
   font-size: 12px;
-  font-weight:bold;
 }
 
 .terms ul li a{
