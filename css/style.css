@@ -872,10 +872,12 @@ div.contact ul{
 .contact ul li:nth-child(2){
   color:white;
   font-size: 17px;
+  text-align: right;
 }
 
 .contact ul li:nth-child(3){
   color:rgba(255,255,255,.5);
+  text-align: right;
 }
 /* |secondo contenitore footer parte inferiore */
 
